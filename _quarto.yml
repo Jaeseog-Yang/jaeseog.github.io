@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Jaeseog Yang"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - research.qmd
+    background: secondary
+  page-footer: "Jaeseog Yang, 2023"
+      
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+
+
+
